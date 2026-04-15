@@ -10,7 +10,7 @@
 	* Agents
 		* Orchestrator
 		* Architect/designer
-		* Project manager (task breakdown)
+		* Planner (task breakdown)
 		* Go coder
 		* Go tester
 		* Maintainer (remediates tech debt)
