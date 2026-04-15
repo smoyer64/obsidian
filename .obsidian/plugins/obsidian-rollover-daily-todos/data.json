@@ -1,0 +1,8 @@
+{
+  "templateHeading": "## 🎯 Focus of the Day",
+  "deleteOnComplete": false,
+  "removeEmptyTodos": false,
+  "rolloverChildren": false,
+  "rolloverOnFileCreate": true,
+  "doneStatusMarkers": "xX-"
+}
