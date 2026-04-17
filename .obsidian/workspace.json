@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal Singularity.md",
+                "file": "Daily/Journal/2026/04-April/2026-04-17.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Personal Singularity"
+              "title": "2026-04-17"
             }
           }
         ]
@@ -197,14 +197,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "periodic-notes:Open today": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "72c67d77779cbd2a",
   "lastOpenFiles": [
+    "Workstation.md",
+    "Daily/Journal/2026/04-April/2026-04-17.md",
+    "Daily/Journal/2026/04-April/2026-04-16.md",
     "Daily/Journal/2026/04-April/2026-04-15.md",
+    "Personal Singularity.md",
     "junk",
     "Templates/Daily Notes.md",
     "Daily/Journal/2026/04-April/2026-04-14.md",
@@ -218,7 +222,6 @@
     "Home inference.md",
     "Daily/Journal/2026/04-Apr",
     "Daily/Journal/2026",
-    "Personal Singularity.md",
     "Daily/Journal/2026/37-Apr/2026-04-14.md",
     "Daily/Journal/2026/37-Apr",
     "Daily/Journal",
