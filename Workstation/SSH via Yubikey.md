@@ -1,3 +1,7 @@
+---
+tags:
+  - workstation
+---
 ## Key configuration
 
 That looks exactly like it should. Notice that **`gpg-agent-ssh.socket`** and **`gnome-keyring-daemon.socket`** are completely absent from the running units. This is the "clean room" state we were looking for. The 90-second timeout was likely the systemd user manager waiting for those conflicting sockets to gracefully exit, which they couldn't do because they were essentially fighting over the same file descriptor territory.

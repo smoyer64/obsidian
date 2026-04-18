@@ -1,3 +1,7 @@
+---
+tags:
+  - ai
+---
 
 * Formics (Memory)
 	* Used for RAG
