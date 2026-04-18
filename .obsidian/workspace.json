@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Workstation/SSH via GPG via Yubikey.md",
+                "file": "Workstation/SSH via Yubikey.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SSH via GPG via Yubikey"
+              "title": "SSH via Yubikey"
             }
           }
         ],
@@ -262,7 +262,7 @@
   "active": "9887367ff2e3bc38",
   "lastOpenFiles": [
     "Daily/Journal/2026/04-April/2026-04-17.md",
-    "Workstation/SSH via GPG via Yubikey.md",
+    "Workstation/SSH via Yubikey.md",
     "Workstation",
     "Home inference.md",
     "Workstation.md",
