@@ -70,7 +70,7 @@
               "type": "markdown",
               "state": {
                 "file": "Daily/Journal/2026/04-April/2026-04-18.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -261,12 +261,12 @@
   },
   "active": "9887367ff2e3bc38",
   "lastOpenFiles": [
-    "Workstation.md",
+    "Daily/Journal/2026/04-April/2026-04-17.md",
     "Daily/Journal/2026/04-April/2026-04-18.md",
+    "Workstation.md",
     "Workstation/SSH via Yubikey.md",
     "Workstation/Workstation.md",
     "Personal Singularity.md",
-    "Daily/Journal/2026/04-April/2026-04-17.md",
     "Workstation",
     "Home inference.md",
     "Daily/Journal/2026/04-April/2026-04-16.md",
