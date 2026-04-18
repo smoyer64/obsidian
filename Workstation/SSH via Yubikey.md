@@ -100,3 +100,78 @@ Since you generated these as **Resident Keys**, you have a superpower: you don't
 However, for your daily-driver XPS, keeping the `IdentityFile` lines in your config is the most stable way to ensure Obsidian always knows exactly which "identity" to reach for first.
 
 **Does that hierarchy make sense for your workflow, or do you have specific servers where you'd _only_ want to use the machine key?**
+
+## Annoying touches
+
+That is the "security tax" being levied by the default behavior of the SSH agent. Since Obsidian (and Git) can initiate multiple SSH connections in a burst—one to check the remote, one to push metadata, one to push the actual blob—you are being hit with a prompt for every single "handshake."
+
+Because we are now in a **stock configuration**, we can fix this using the two standard tools designed for exactly this annoyance: **Agent Caching** and **Connection Multiplexing**.
+
+### 1. The "PIN Cache" (ssh-add)
+
+The PIN (Passphrase) check happens because the agent isn't "holding" the decrypted handle for the hardware key. You can tell the agent to verify the PIN once and remember it for the rest of your session.
+
+Run this in your terminal:
+
+Bash
+
+```
+ssh-add ~/.ssh/id_ed25519_sk_1
+```
+
+- **Result:** You enter the PIN once. For the rest of the day, Obsidian will **not** ask for the PIN. It will only flash for the "User Presence" touch.
+    
+
+---
+
+### 2. The "Touch Cache" (ControlMaster)
+
+The reason you are touching the key for _every file_ is that each one is opening a brand-new SSH connection. We can tell SSH to "reuse" the first authenticated pipe for all subsequent requests.
+
+Open `~/.ssh/config` and add these three lines to your `Host *` block:
+
+Plaintext
+
+```
+Host *
+    # ... your existing IdentityFile lines ...
+    
+    # Connection Multiplexing
+    ControlMaster auto
+    ControlPath ~/.ssh/control-%C
+    ControlPersist 10m
+```
+
+**How this works:**
+
+- **ControlMaster auto:** The first time Obsidian syncs, it opens a "Master" connection.
+    
+- **The Touch:** You touch the YubiKey once to open that Master pipe.
+    
+- **The Reuse:** Every subsequent file "hitchhikes" on that same open pipe.
+    
+- **ControlPersist 10m:** The pipe stays open for 10 minutes after the last activity, so if you save another note 2 minutes later, it’s instantaneous—**no PIN, no touch.**
+    
+
+---
+
+### 3. The "Identity" Balance
+
+If you find that even the "Touch" is too much for a Git-based digital notebook like Formics/Obsidian, you have two choices:
+
+1. **Lower the Hardware Bar:** Re-generate the key without `-O verify-required`. This removes the PIN requirement but keeps the Touch.
+    
+2. **The "Machine" Identity:** Use your local `id_rsa` for Obsidian specifically. Since `id_rsa` is a file on your encrypted disk, you can add it to the agent once (`ssh-add ~/.ssh/id_rsa`), and it will never ask for a touch.
+    
+
+**To use the Machine key just for Obsidian's host (assuming it's GitHub):**
+
+Plaintext
+
+```
+Host github.com
+    IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes
+```
+
+**Does adding the `ControlMaster` lines to your config feel like the right middle ground to stop the "per-file" tapping?**
