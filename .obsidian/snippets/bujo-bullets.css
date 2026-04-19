@@ -1,21 +1,32 @@
-/* --- BUJO RAPID LOGGING FOR MINIMAL --- */
-
-/* 1. Target the '-' character (Notes) */
-.markdown-source-view.mod-cm6 .cm-content .HyperMD-list-line[data-bullet="-"] .list-bullet::after,
-.markdown-rendered li[data-bullet="-"]::marker {
-    content: "—" !important; /* Em-dash */
-    color: var(--text-muted) !important;
+/* 1. Target the Event (*) */
+.cm-line .list-bullet:has(text):contains("*"),
+.cm-formatting-list-ul:has(.list-bullet):contains("*") {
+    visibility: hidden;
+    position: relative;
 }
 
-/* 2. Target the '*' character (Events) */
-.markdown-source-view.mod-cm6 .cm-content .HyperMD-list-line[data-bullet="*"] .list-bullet::after,
-.markdown-rendered li[data-bullet="*"]::marker {
-    content: "○" !important; /* Open circle */
-    color: var(--interactive-accent) !important;
-    font-weight: bold !important;
+.cm-line .list-bullet:has(text):contains("*")::after,
+.cm-formatting-list-ul:has(.list-bullet):contains("*")::after {
+    content: "○";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    color: var(--interactive-accent);
+    font-weight: bold;
 }
 
-/* 3. Force visibility for custom bullets */
-.markdown-source-view.mod-cm6 .list-bullet::after {
-    visibility: visible !important;
+/* 2. Target the Note (-) */
+.cm-line .list-bullet:has(text):contains("-"),
+.cm-formatting-list-ul:has(.list-bullet):contains("-") {
+    visibility: hidden;
+    position: relative;
+}
+
+.cm-line .list-bullet:has(text):contains("-")::after,
+.cm-formatting-list-ul:has(.list-bullet):contains("-")::after {
+    content: "—";
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    color: var(--text-muted);
 }

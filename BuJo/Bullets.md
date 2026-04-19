@@ -24,16 +24,17 @@ Task bullets are styled using the `minimal` theme.
 - [/] `[/]` In progress (Half filled)
 - [-] `[-]`Cancelled (Strikethough / Dash)
 - [!] `[!]` Important / priority (Exclamation point)
+- [ ] Test
+- [ ] Test
 
 ## Event bullets
 
 Event bullets are styled using the `bujo-bullet.css` CSS snippet.
 
-- `-` Event
+- [o] 
 
 ## Note bullets
 
 Note bullets are styled using the `bugo-bullet.css` CSS snippet.
 
-* `*` Note
-
+* ! This is a test 
