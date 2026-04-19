@@ -1,5 +1,8 @@
 {
   "interfaceFontFamily": "OpenDyslexic Nerd Font",
   "textFontFamily": "OpenDyslexic Nerd Font",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "bujo-bullets"
+  ]
 }

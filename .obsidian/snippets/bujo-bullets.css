@@ -1,0 +1,14 @@
+/* Customize the '-' bullet for Notes */
+span.cm-list-indent-1.cm-bullet, 
+.markdown-rendered li[data-bullet="-"] {
+    list-style-type: "- ";
+    color: var(--text-muted);
+}
+
+/* Customize the '*' bullet for Events (Open Circle) */
+span.cm-list-indent-1.cm-bullet, 
+.markdown-rendered li[data-bullet="*"] {
+    list-style-type: circle;
+    color: var(--interactive-accent);
+}
+
