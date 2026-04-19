@@ -26,6 +26,7 @@ Task bullets are styled using the `minimal` theme.
 - [!] `[!]` Important / priority (Exclamation point)
 - [ ] Test
 - [ ] Test
+- [ ] 
 
 ## Event bullets
 
@@ -37,4 +38,6 @@ Event bullets are styled using the `bujo-bullet.css` CSS snippet.
 
 Note bullets are styled using the `bugo-bullet.css` CSS snippet.
 
-* ! This is a test 
+* ! This is a test
+- [ ] ! 
+* !
