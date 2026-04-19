@@ -29,4 +29,11 @@ Task bullets are styled using the `minimal` theme.
 
 Event bullets are styled using the `bujo-bullet.css` CSS snippet.
 
-- 
+- `-` Event
+
+## Note bullets
+
+Note bullets are styled using the `bugo-bullet.css` CSS snippet.
+
+* `*` Note
+
