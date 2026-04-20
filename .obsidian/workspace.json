@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Daily/Journal/2026/04-April/2026-04-20.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "2026-04-20"
             }
           }
         ],
@@ -227,7 +227,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -246,10 +246,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9e358fefd56c147",
+  "active": "21df68ed6cfc87fb",
   "lastOpenFiles": [
-    "Companies/Selesy/Workstation/Workstation 1.md",
     "Home.md",
+    "Companies/Selesy/Workstation/Workstation 1.md",
     "Archive",
     "Companies/Selesy/Workstation/Workstation.md",
     "Steve Moyer/Home inference.md",
