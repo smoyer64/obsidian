@@ -241,11 +241,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 393.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -260,10 +260,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "9bd7bd65c52f09d7",
+  "active": "9887367ff2e3bc38",
   "lastOpenFiles": [
-    "BuJo/Bullets.md",
+    "Daily/Journal/2026/04-April/2026-04-21.md",
     "Daily/Journal/2026/04-April/2026-04-20.md",
+    "BuJo/Bullets.md",
     "Daily/Journal/2026/Summer pruning.md",
     "Daily/Journal/2026/04-April/2026-04-19.md",
     "Templates/Daily Notes.md",
