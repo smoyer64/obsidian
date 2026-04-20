@@ -3,5 +3,6 @@
   "textFontFamily": "OpenDyslexic Nerd Font",
   "cssTheme": "Minimal",
   "enabledCssSnippets": [],
-  "accentColor": ""
+  "accentColor": "",
+  "monospaceFontFamily": "OpenDyslexicMono"
 }
