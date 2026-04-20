@@ -1,6 +1,7 @@
 {
   "interfaceFontFamily": "OpenDyslexic Nerd Font",
   "textFontFamily": "OpenDyslexic Nerd Font",
-  "cssTheme": "",
-  "enabledCssSnippets": []
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [],
+  "accentColor": ""
 }
