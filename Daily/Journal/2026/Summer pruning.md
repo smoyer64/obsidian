@@ -1,5 +1,0 @@
-- [ ] Away from garage roof
-- [ ] Away from office roof
-- [ ] Along rear fence
-- [ ] Hydrangea topiary
-- [ ] Stray sumac

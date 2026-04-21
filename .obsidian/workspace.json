@@ -199,11 +199,14 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "188f693f98635b7a",
+  "active": "e9e358fefd56c147",
   "lastOpenFiles": [
+    "Daily/Journal/2026/Spring Yardword.md",
+    "Daily/Journal/2026/04-April/2026-04-20.md",
     "Home.md",
     "Companies/Selesy/Workstation/Workstation 1.md",
     "Archive",
@@ -212,11 +215,9 @@
     "Daily/Journal/2026/04-April/2026-04-29.md",
     "Companies/Consensys",
     "Companies",
-    "Daily/Journal/2026/04-April/2026-04-20.md",
     "Daily/Journal/2026/04-April/2026-04-22.md",
     "Daily/Journal/2026/04-April/2026-04-21.md",
     "BuJo/Bullets.md",
-    "Daily/Journal/2026/Summer pruning.md",
     "Daily/Journal/2026/04-April/2026-04-19.md",
     "Templates/Daily Notes.md",
     "Daily/Journal/2026/04-April/2026-04-18.md",
