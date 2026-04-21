@@ -199,8 +199,7 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false,
-      "periodic-notes:Open today": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "188f693f98635b7a",
