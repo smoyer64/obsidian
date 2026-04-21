@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily/Journal/2026/04-April/2026-04-20.md",
+                "file": "Daily/Journal/2026/04-April/2026-04-21.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "2026-04-20"
+              "title": "2026-04-21"
             }
           }
         ]
@@ -205,8 +205,10 @@
   },
   "active": "e9e358fefd56c147",
   "lastOpenFiles": [
-    "Daily/Journal/2026/Spring Yardword.md",
+    "BuJo/Bullets.md",
+    "Daily/Journal/2026/04-April/2026-04-21.md",
     "Daily/Journal/2026/04-April/2026-04-20.md",
+    "Daily/Journal/2026/Spring Yardword.md",
     "Home.md",
     "Companies/Selesy/Workstation/Workstation 1.md",
     "Archive",
@@ -216,8 +218,6 @@
     "Companies/Consensys",
     "Companies",
     "Daily/Journal/2026/04-April/2026-04-22.md",
-    "Daily/Journal/2026/04-April/2026-04-21.md",
-    "BuJo/Bullets.md",
     "Daily/Journal/2026/04-April/2026-04-19.md",
     "Templates/Daily Notes.md",
     "Daily/Journal/2026/04-April/2026-04-18.md",

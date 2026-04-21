@@ -4,5 +4,5 @@
   "removeEmptyTodos": false,
   "rolloverChildren": false,
   "rolloverOnFileCreate": true,
-  "doneStatusMarkers": "xX-"
+  "doneStatusMarkers": "xX-<>"
 }
