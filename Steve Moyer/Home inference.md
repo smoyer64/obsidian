@@ -4,17 +4,17 @@ The RTX 5090 features **32GB of GDDR7 VRAM**, the maximum available on a consume
 
 ### Estimated Cost Breakdown (USD)
 
-|**Component**|**Description**|**Estimated Cost**|
-|---|---|---|
-|**GPUs (x2)**|NVIDIA RTX 5090 (32GB GDDR7 each)|**$6,000 – $7,500**|
-|**CPU**|High-core count (e.g., Ryzen 9 9950X or Threadripper 7000)|**$650 – $1,500**|
-|**Motherboard**|E-ATX or Workstation board with dual x16 PCIe 5.0 slots|**$500 – $900**|
-|**RAM**|128GB - 256GB DDR5 (Prices are currently high)|**$600 – $1,200**|
-|**PSU**|1600W - 2000W 80+ Titanium (ATX 3.1 / PCIe 5.1 ready)|**$450 – $650**|
-|**Chassis**|4U Rackmount (e.g., SilverStone RM44 or specialized GPU case)|**$300 – $500**|
-|**Storage**|2TB - 4TB Gen5 NVMe SSD|**$250 – $500**|
-|**Cooling**|Industrial-grade fans + AIO or custom loop|**$200 – $600**|
-|**Total Estimate**||**$9,000 – $13,350+**|
+| **Component**      | **Description**                                               | **Estimated Cost**    |
+| ------------------ | ------------------------------------------------------------- | --------------------- |
+| **GPUs (x2)**      | NVIDIA RTX 5090 (32GB GDDR7 each)                             | **$6,000 – $7,500**   |
+| **CPU**            | High-core count (e.g., Ryzen 9 9950X or Threadripper 7000)    | **$650 – $1,500**     |
+| **Motherboard**    | E-ATX or Workstation board with dual x16 PCIe 5.0 slots       | **$500 – $900**       |
+| **RAM**            | 128GB - 256GB DDR5 (Prices are currently high)                | **$600 – $1,200**     |
+| **PSU**            | 1600W - 2000W 80+ Titanium (ATX 3.1 / PCIe 5.1 ready)         | **$450 – $650**       |
+| **Chassis**        | 4U Rackmount (e.g., SilverStone RM44 or specialized GPU case) | **$300 – $500**       |
+| **Storage**        | 2TB - 4TB Gen5 NVMe SSD                                       | **$250 – $500**       |
+| **Cooling**        | Industrial-grade fans + AIO or custom loop                    | **$200 – $600**       |
+| **Total Estimate** |                                                               | **$9,000 – $13,350+** |
 
 ---
 
