@@ -25,10 +25,14 @@
             "id": "3034b732d9361913",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Daily/Journal/2026/04-April/2026-04-22.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-22"
             }
           }
         ],
@@ -214,7 +218,7 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "188f693f98635b7a",
+  "active": "3034b732d9361913",
   "lastOpenFiles": [
     "Companies/Untitled",
     "Daily/Journal/2026/04-April/2026-04-22.md",
