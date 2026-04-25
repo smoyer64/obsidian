@@ -179,3 +179,7 @@ Host github.com
 ```
 
 **Does adding the `ControlMaster` lines to your config feel like the right middle ground to stop the "per-file" tapping?**
+
+## References
+
+1. [Consolidated Guide to Using Yubikeys with Linux](https://marcusb.org/posts/2024/03/consolidated-guide-to-using-yubikeys-with-linux)
