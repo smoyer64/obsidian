@@ -28,3 +28,6 @@ tags:
 	- Provide skills to allow coding agents to use generation
 	- Many common Go patterns
 	- Inspired by Lombok
+* This will require local inference in one or both forms:
+	* [[Desktop Inference]]
+	* [[Home inference]]
