@@ -1,3 +1,9 @@
+---
+tags:
+  - ai
+  - llm
+  - inference
+---
 Building a rack-mount system with dual RTX 5090s in 2026 is a serious undertaking that blurs the line between a high-end workstation and a personal data center. Given the current market trends, where high-demand AI components and GDDR7 memory shortages have driven prices above MSRP, you are looking at a substantial investment.
 
 The RTX 5090 features **32GB of GDDR7 VRAM**, the maximum available on a consumer card. A dual-GPU setup provides a massive **64GB of total VRAM** for AI inference and rendering.
