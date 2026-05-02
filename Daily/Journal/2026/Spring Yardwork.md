@@ -7,12 +7,14 @@
 - [ ] Stray sumac
 
 ## Patio Set-up
-- [ ] Remove prop
-- [ ] Uncover fountain
+- [x] Remove prop ✅ 2026-05-02
+- [ ] Uncover/clean/fill fountain
 - [ ] Get out patio furniture
 - [ ] Rake and sweep
+- [ ] Hang party light
 
 ## Other
 - [ ] Rake yard
 - [ ] Clean fire-pit
 - [ ] Split firewood
+- [ ] Fix stone wall
