@@ -14,6 +14,7 @@ tags:
 * [4090 24GB](https://www.newegg.com/asus-tuf-gaming-tuf-rtx4090-o24g-gaming-geforce-rtx-4090-24gb-graphics-card-triple-fans/p/N82E16814126594?Item=N82E16814126594&id6=true&id7=97935&id29=true&id8=e&nm_mc=knc-msnkwless-search-exact&id10=c&id11=true&id12=bd75bb31949c1f9217b0d2c57ac4f092&id34=true&utm_source=bing&id33=true&id32=true&id31=true&id30=true&id28=true&id27=Y&id26=77378424295149&id25=true&id14=Y&id13=true&id18=true&cm_mmc=knc-msnkwless-search-exact-_-vga-_-rtx-4090%5C-_-pdp-2&id15=true&id16=77378321596553&id20=true&id17=rtx%204090&utm_medium=paid%20search&id19=true&utm_campaign=knc-msnkwless-search-exact-_-vga-_-rtx-4090%5C-_-pdp-2&id21=true&id0=Bing&id22=true&id1=431356061&id23=true&id2=1238050443220508&id24=true&id3=77378321596553&id4=true&id5=kwd-77378424295149%3Aloc-190&id9=s)
 * [5080 FE 16GB](https://www.amazon.com/NVIDIA-GeForce-RTX-5080-Founders/dp/B0DYVCGVK4?adgrpid=1232553871029991&dib=eyJ2IjoiMSJ9.XyijjW-dLu66FQSRd3TzNHfzwi3cejklk0aLEoA0TARk5qwB2yJPfiBpPuxRy6Dsc6ScrfgUUpHfdQoYZX5CsYTYHEBkcfGrf1GUcZ5ZTZ_m0JCRcoB8fmcr_LjVu7_oOtyTl7n8-iRjvUCC_45z_Mitw65gJ_IzsgN2FdolmR2piCjQte0wI5NJGLHrZP-06_Og4EiJUIVo7pwSHNOZjfQijA1TA6ppHF11vCNGh0Y.4r0oeRW7giHu2FybifIT0zX2RKFFVx8gyC1of3t98Hk&dib_tag=se&hvadid=77034760113951&hvbmt=bp&hvdev=c&hvlocphy=98057&hvnetw=s&hvqmt=p&hvtargid=kwd-77035074745468%3Aloc-190&hydadcr=25577_13593504&keywords=5080+nvidia+gpu&mcid=d764e0c55fd13ed386ffd43591c8527a&qid=1777512931&sbo=RZvfv%2F%2FHxDF%2BO5021pAnSA%3D%3D&sr=8-1)
 * [5090 FE 32GB](https://marketplace.nvidia.com/en-us/consumer/graphics-cards/geforce-rtx-5090-founders-edition/)
+* [Arc Pro B70](https://www.newegg.com/asrock-b70-ct-intel-arc-pro-b70-32gb-graphics-card/p/N82E16814930149)
 
 ## Turing Pi 2 configurations
 * [Turing Pi 2.5](https://turingpi.com/product/turing-pi-2-5/)
@@ -31,7 +32,12 @@ tags:
 Software
 * [llama.cpp](https://github.com/ggml-org/llama.cpp)
 * [llama-swap](https://github.com/mostlygeek/llama-swap)
+* [SYCL](https://www.intel.com/content/www/us/en/developer/articles/technical/quick-guide-to-sycl-implementations.html)
+
+## Hardware
+- [# What is OCuLink? (And Why You Might Want It)](https://www.howtogeek.com/what-is-oculink/)
 
 Articles
 * [# Building a Private AI Server with NVIDIA Jetson AGX Thor](https://joesindel.com/posts/thor-ai-home-server/)
+* [# From 81 Million Tokens to Local Inference — How an Intel Arc Pro B70 Changed My Development Workflow](https://www.linkedin.com/pulse/from-81-million-tokens-local-inference-how-intel-arc-pro-werstler-hlysf/?trackingId=QBleYcTpRyqbo4e9yPtn9g%3D%3D)
 
