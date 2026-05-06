@@ -4,6 +4,7 @@ tags:
   - configuration
   - dell
   - hardware
+  - anna
 ---
 
   ## Installing Xubuntu
@@ -23,3 +24,7 @@ tags:
 
 - Install Git using `sudo apt install git`
 - Add your SSH key to Github using the instructions at https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+---
+
+**This computer was given to Anna**

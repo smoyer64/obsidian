@@ -1,3 +1,10 @@
+---
+tags:
+  - hardware
+  - computer
+  - configuration
+  - debian
+---
 ## Install the OS from USB
 
 ## Run `workstation
