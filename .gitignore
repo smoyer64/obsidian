@@ -8,6 +8,7 @@
 .obsidian/workspace-remotely-save.json
 .obsidian/cache/
 .obsidian/trash/
+.obsidian/plugins/obsidian-git/.git_credentials_input
 
 # System Files (if syncing from different OS)
 .DS_Store
