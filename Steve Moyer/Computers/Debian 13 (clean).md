@@ -17,6 +17,7 @@ Run the graphical installer:
 - The answers to most questions are obvious
 - Put everything on a single partition
 - Create a LUKS encrypted disk
+	- The `shred` step is slow but don't skip it
 ## Run `workstation
 
 ## Add passwords using `password-store`
