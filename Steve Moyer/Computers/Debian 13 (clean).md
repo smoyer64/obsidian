@@ -2,4 +2,9 @@
 
 ## Run `workstation
 
+## Add passwords using `password-store`
+
+## Add configuration using `chezmoi`
+
+
 `
