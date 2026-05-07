@@ -1,3 +1,9 @@
+---
+tags:
+  - bazantic
+  - router
+  - proxy
+---
 - [ ] Intercept request headers, body trailers
 - [ ] Intercept response headers, body, trailers
 - [ ] Allow handler plugins per path
