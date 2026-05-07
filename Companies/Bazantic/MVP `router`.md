@@ -4,11 +4,14 @@ tags:
   - router
   - proxy
 ---
-- [ ] Intercept request headers, body trailers
-- [ ] Intercept response headers, body, trailers
+- [ ] Intercept request headers, body and trailers
+- [ ] Intercept response headers, body and trailers
 - [ ] Allow handler plugins per path
 - [ ] Hot reload
 - [ ] Deploy to https://fly.io
+	- [ ] IaC for *.bazantic.smoyer.dev sub-domain
+	- [ ] IaC for *.bazantic.smoyer.dev certificate
+	- [ ] Deployment for https://router.bazantic.smoyer.dev
 - [ ] Deploy as CloudFlare worker
 - [ ] MCP from OpenAPI specification
 - [ ] MCP from OpenRPC specification
