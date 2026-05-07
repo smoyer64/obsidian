@@ -10,6 +10,7 @@ tags:
 - [ ] Hot reload
 - [ ] Deploy to https://fly.io
 	- [ ] IaC for *.bazantic.smoyer.dev sub-domain
+	- [ ] IaC to create API token for *.bazantic.smoyer.dev`
 	- [ ] IaC for *.bazantic.smoyer.dev certificate
 	- [ ] Deployment for https://router.bazantic.smoyer.dev
 - [ ] Deploy as CloudFlare worker
