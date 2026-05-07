@@ -1,9 +1,17 @@
-	- [ ] Intercept request headers, body trailers
-	- [ ] Intercept response headers, body, trailers
-	- [ ] Allow handler plugins per path
-	- [ ] Hot reload
-	- [ ] Deploy to https://fly.io
-	- [ ] Deploy as CloudFlare worker
-	- [ ] MCP from OpenAPI specification
-	- [ ] MCP from OpenRPC specification
-	- [ ] ? Ethereum JSON-RPC translator (and others)
+- [ ] Intercept request headers, body trailers
+- [ ] Intercept response headers, body, trailers
+- [ ] Allow handler plugins per path
+- [ ] Hot reload
+- [ ] Deploy to https://fly.io
+- [ ] Deploy as CloudFlare worker
+- [ ] MCP from OpenAPI specification
+- [ ] MCP from OpenRPC specification
+- [ ] ? Ethereum JSON-RPC translator (and others)
+- [ ] Observability
+	- [ ] OTEL logging
+	- [ ] OTEL metrics
+	- [ ] OTEL traces
+- [ ] Initial `providers`
+	- [ ] Zerion
+	- [ ] Allium
+	- [ ] Triton
