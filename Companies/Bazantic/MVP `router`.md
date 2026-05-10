@@ -23,5 +23,9 @@ tags:
 	- [ ] OTEL traces
 - [ ] Initial `providers`
 	- [ ] Zerion
+		- [ ] API
+		- [ ] MCP
+		- [ ] Agent card
+		- [ ] OpenAPI docs
 	- [ ] Allium
 	- [ ] Triton
