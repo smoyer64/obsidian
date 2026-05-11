@@ -10,8 +10,8 @@ tags:
 - [ ] Hot reload
 - [ ] Deploy to https://fly.io
 	- [ ] IaC for *.b4z.dev sub-domain
-	- [ ] IaC to create API token for *.b4a.dev`
-	- [ ] IaC for *.bazantic.smoyer.dev certificate
+	- [ ] IaC to create API token for *gateway.b4a.dev`
+	- [ ] IaC for *gateway.b4z.dev certificate
 	- [ ] Deployment for https://router.bazantic.smoyer.dev
 - [ ] Deploy as CloudFlare worker
 - [ ] MCP from OpenAPI specification
@@ -29,3 +29,10 @@ tags:
 		- [ ] OpenAPI docs
 	- [ ] Allium
 	- [ ] Triton
+- [ ] Create x402+MPP proof-of-concept
+	- [ ] Write MPP headers
+	- [ ] ~~Write x402 body ~~
+	- [ ] Write x402 headers
+	- [ ] Create "merged" server
+	- [ ] Create "Hello, world" implementation
+	- [ ] Deploy to Fly.io
