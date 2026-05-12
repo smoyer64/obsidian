@@ -29,6 +29,7 @@ tags:
 		- [ ] OpenAPI docs
 	- [ ] Allium
 	- [ ] Triton
+	- [ ] Vault
 - [ ] Create x402+MPP proof-of-concept
 	- [ ] Write MPP headers
 	- [ ] ~~Write x402 body ~~
