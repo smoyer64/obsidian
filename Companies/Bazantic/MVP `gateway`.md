@@ -34,6 +34,7 @@ tags:
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
+		- https://mcp.vaults.fyi/mcp
 - [ ] Create x402+MPP proof-of-concept
 	- [ ] Write MPP headers
 	- [ ] ~~Write x402 body ~~
