@@ -30,6 +30,10 @@ tags:
 	- [ ] Allium
 	- [ ] Triton
 	- [ ] Vault
+		- [ ] API
+		- [ ] MCP
+		- [ ] Agent card
+		- [ ] OpenAPI docs
 - [ ] Create x402+MPP proof-of-concept
 	- [ ] Write MPP headers
 	- [ ] ~~Write x402 body ~~
