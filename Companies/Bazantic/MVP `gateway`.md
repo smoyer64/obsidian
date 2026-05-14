@@ -27,7 +27,7 @@ tags:
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
-		- MCP server end-point: https://developers.zerion.io/mcp
+		- MCP server end-point: https://developers.zerion.io/mcp (query documentation)
 		- OpenAPI document: https://developers.zerion.io/openapi-v1.yaml
 	- [ ] Allium
 	- [ ] Triton
