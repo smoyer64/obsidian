@@ -27,7 +27,7 @@ tags:
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
-		- MCP server end-point: 
+		- MCP server end-point: https://developers.zerion.io/mcp
 		- OpenAPI document: https://developers.zerion.io/openapi-v1.yaml
 	- [ ] Allium
 	- [ ] Triton
@@ -37,6 +37,7 @@ tags:
 		- [ ] Agent card
 		- [ ] OpenAPI docs
 		- MCP server end-point: https://mcp.vaults.fyi/mcp
+		- OpenAPI document: 
 - [ ] Create x402+MPP proof-of-concept
 	- [ ] Write MPP headers
 	- [ ] ~~Write x402 body ~~
