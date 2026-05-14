@@ -37,7 +37,7 @@ tags:
 		- [ ] Agent card
 		- [ ] OpenAPI docs
 		- MCP server end-point: https://mcp.vaults.fyi/mcp
-		- OpenAPI document: 
+		- OpenAPI document: https://raw.githubusercontent.com/WallfacerLabs/API-V2-spec/refs/heads/main/v2Spec.yaml
 - [ ] Create x402+MPP proof-of-concept
 	- [ ] Write MPP headers
 	- [ ] ~~Write x402 body ~~
