@@ -19,8 +19,10 @@ tags:
 - [ ] ? Ethereum JSON-RPC translator (and others)
 - [ ] Observability
 	- [ ] OTEL logging
+		- [ ] Wide logging
 	- [ ] OTEL metrics
 	- [ ] OTEL traces
+	- [ ] HTTPTrace
 - [ ] Initial `providers`
 	- [ ] Zerion
 		- [ ] API
