@@ -53,4 +53,17 @@ tags:
 	- [ ] Create "merged" server
 	- [ ] Create "Hello, world" implementation
 	- [ ] Deploy to Fly.io
-- [ ] 
+- `gateway` priority
+	- [ ] `proxy`
+	- [ ] `router`
+		- [ ] `api`
+		- [ ] openapi
+		- [ ] `mcp
+		- [ ] agent-card`
+		- [ ] `auth`
+	- [ ] `dev` IAC
+	- [ ] `payment`
+	- [ ] `config` (hot reload)
+	- [ ] `prd` IAC
+- [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
+- [ ] Create diagram and descriptions of internal `gateway` request flow.
