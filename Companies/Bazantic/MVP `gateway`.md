@@ -27,6 +27,9 @@ tags:
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
+		- Home page: https://www.zerion.io/api
+		- Documentation: 
+		- API: 
 		- MCP server end-point: https://developers.zerion.io/mcp (query documentation)
 		- OpenAPI document: https://developers.zerion.io/openapi-v1.yaml
 	- [ ] Allium
@@ -36,6 +39,9 @@ tags:
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
+		- Home page: https://vaults.fyi/
+		- Documentation:
+		- API: 
 		- MCP server end-point: https://mcp.vaults.fyi/mcp
 		- OpenAPI document: https://raw.githubusercontent.com/WallfacerLabs/API-V2-spec/refs/heads/main/v2Spec.yaml
 - [ ] Create x402+MPP proof-of-concept
