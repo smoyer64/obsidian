@@ -54,16 +54,20 @@ tags:
 	- [ ] Create "Hello, world" implementation
 	- [ ] Deploy to Fly.io
 - `gateway` priority
-	- [ ] `proxy`
+	- [x] `proxy` ✅ 2026-05-15
+		- [ ] BazanticError header set if `io.Copy` fails
 	- [ ] `router`
 		- [ ] `api`
 		- [ ] openapi
+		- [ ] JSON-RPC handler
+			- [ ] BazanticError header set if HTTP response entity body contains an error.
 		- [ ] `mcp
 		- [ ] agent-card`
 		- [ ] `auth`
 	- [ ] `dev` IAC
 	- [ ] `payment`
 	- [ ] `config` (hot reload)
+		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] `prd` IAC
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
 - [ ] Create diagram and descriptions of internal `gateway` request flow.
