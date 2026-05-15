@@ -25,7 +25,7 @@ tags:
 	- [ ] HTTPTrace
 - [ ] Initial `providers`
 	- [ ] Zerion
-		- [ ] API
+		- [x] API ✅ 2026-05-15
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
@@ -37,7 +37,7 @@ tags:
 	- [ ] Allium
 	- [ ] Triton
 	- [ ] Vault
-		- [ ] API
+		- [x] API ✅ 2026-05-15
 		- [ ] MCP
 		- [ ] Agent card
 		- [ ] OpenAPI docs
@@ -57,13 +57,13 @@ tags:
 	- [x] `proxy` ✅ 2026-05-15
 		- [ ] BazanticError header set if `io.Copy` fails
 	- [ ] `router`
-		- [ ] `api`
+		- [x] `api` ✅ 2026-05-15
+		- [x] `auth` ✅ 2026-05-15
 		- [ ] openapi
 		- [ ] JSON-RPC handler
 			- [ ] BazanticError header set if HTTP response entity body contains an error.
 		- [ ] `mcp
-		- [ ] agent-card`
-		- [ ] `auth`
+		- [ ] agent-card
 	- [ ] `dev` IAC
 	- [ ] `payment`
 	- [ ] `config` (hot reload)
