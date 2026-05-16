@@ -64,6 +64,9 @@ tags:
 			- [ ] BazanticError header set if HTTP response entity body contains an error.
 		- [ ] `mcp
 		- [ ] agent-card
+	- [ ] config
+		- [ ] logging
+		- [ ] providers
 	- [ ] `dev` IAC
 	- [ ] `payment`
 	- [ ] `config` (hot reload)
