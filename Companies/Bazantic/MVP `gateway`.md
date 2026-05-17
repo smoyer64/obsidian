@@ -26,7 +26,8 @@ tags:
 - [ ] Initial `providers`
 	- [ ] Zerion
 		- [x] API ✅ 2026-05-15
-		- [ ] MCP
+		- [ ] MCP (provider)
+		- [ ] MCP (generated)
 		- [ ] Agent card
 		- [ ] OpenAPI docs
 		- Home page: https://www.zerion.io/api
@@ -59,7 +60,7 @@ tags:
 		- [ ] BazanticError header set if `io.Copy` fails
 	- [ ] `router`
 		- [x] `api` ✅ 2026-05-15
-		- [x] `auth` ✅ 2026-05-15
+		- [x] provider `auth` ✅ 2026-05-15
 		- [ ] openapi
 		- [ ] JSON-RPC handler
 			- [ ] BazanticError header set if HTTP response entity body contains an error.
@@ -73,5 +74,9 @@ tags:
 	- [ ] `config` (hot reload)
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] `prd` IAC
+- [ ] Provider authentication
+		- [ ] Header
+		- [ ] Basic
+		- [ ] Bearer
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
 - [ ] Create diagram and descriptions of internal `gateway` request flow.
