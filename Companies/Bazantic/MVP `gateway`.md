@@ -38,7 +38,8 @@ tags:
 	- [ ] Triton
 	- [ ] Vault
 		- [x] API ✅ 2026-05-15
-		- [ ] MCP
+		- [ ] MCP (provider)
+		- [ ] MCP (generated)
 		- [ ] Agent card
 		- [ ] OpenAPI docs
 		- Home page: https://vaults.fyi/

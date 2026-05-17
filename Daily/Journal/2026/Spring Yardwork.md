@@ -8,13 +8,15 @@
 
 ## Patio Set-up
 - [x] Remove prop ✅ 2026-05-02
-- [ ] Uncover/clean/fill fountain
+- [x] Uncover/clean/fill fountain ✅ 2026-05-17
 - [ ] Get out patio furniture
 - [ ] Rake and sweep
-- [ ] Hang party light
+- [x] Hang party light ✅ 2026-05-17
 
 ## Other
-- [ ] Rake yard
+- [-] Rake yard
 - [ ] Clean fire-pit
 - [ ] Split firewood
 - [ ] Fix stone wall
+- [ ] Fix fence
+- [ ] Paint fence
