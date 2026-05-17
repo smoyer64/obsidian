@@ -4,8 +4,8 @@ tags:
   - router
   - proxy
 ---
-- [ ] Intercept request headers, body and trailers
-- [ ] Intercept response headers, body and trailers
+- [x] Intercept request headers, body and trailers ✅ 2026-05-15
+- [x] Intercept response headers, body and trailers ✅ 2026-05-15
 - [ ] Allow handler plugins per path
 - [ ] Hot reload
 - [ ] Deploy to https://fly.io
