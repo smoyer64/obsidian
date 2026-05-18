@@ -20,3 +20,10 @@
 - [ ] Fix stone wall
 - [ ] Fix fence
 - [ ] Paint fence
+- [ ] Trim ball bush
+- [ ] Trim short hedge
+- [ ] Weed front gardens
+- [ ] Fix gas blower
+- [ ] Empty right garage bay
+- [ ] Replace mountain bike brake shoes
+- [ ] Edge front sidewalk and flagstones
