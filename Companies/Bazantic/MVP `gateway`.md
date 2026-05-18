@@ -69,10 +69,11 @@ tags:
 	- [ ] config
 		- [ ] logging
 		- [ ] providers
-	- [ ] `dev` IAC
+	- [ ] `b4z` IAC
 	- [ ] `payment`
 	- [ ] `config` (hot reload)
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
+	- [ ] `dev` IAC
 	- [ ] `prd` IAC
 - [ ] Provider authentication
 		- [ ] Header
