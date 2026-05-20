@@ -66,11 +66,18 @@ tags:
 			- [ ] BazanticError header set if HTTP response entity body contains an error.
 		- [ ] `mcp
 		- [ ] agent-card
+		- [ ] `retry` policy and implementation
 	- [ ] config
 		- [ ] logging
 		- [ ] providers
 	- [ ] `b4z` IAC
 	- [ ] `payment`
+		- [ ] `x402`
+			- [ ] Request `base` USDC
+			- [ ] Settle `base`USDC
+		- [ ] MPP
+			- [ ] Request `tempo` USDC
+			- [ ] Settle `tempo`USDC
 	- [ ] `config` (hot reload)
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] `dev` IAC
