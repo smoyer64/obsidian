@@ -6,7 +6,7 @@ tags:
 ---
 - [x] Intercept request headers, body and trailers ✅ 2026-05-15
 - [x] Intercept response headers, body and trailers ✅ 2026-05-15
-- [ ] Allow handler plugins per path
+- [x] Allow handler plugins per path ✅ 2026-05-20
 - [ ] Hot reload
 - [ ] Deploy to https://fly.io
 	- [ ] IaC for *.b4z.dev sub-domain
@@ -83,8 +83,11 @@ tags:
 	- [ ] `dev` IAC
 	- [ ] `prd` IAC
 - [ ] Provider authentication
-		- [ ] Header
-		- [ ] Basic
-		- [ ] Bearer
+	- [x] Header ✅ 2026-05-20
+	- [x] Basic ✅ 2026-05-20
+	- [x] Bearer ✅ 2026-05-20
+	- [ ] OAuth2
+	- [x] Path ✅ 2026-05-20
+	- [x] Noop ✅ 2026-05-20
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
 - [ ] Create diagram and descriptions of internal `gateway` request flow.
