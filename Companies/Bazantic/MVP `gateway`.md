@@ -90,4 +90,4 @@ tags:
 	- [x] Path ✅ 2026-05-20
 	- [x] Noop ✅ 2026-05-20
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
-- [ ] Create diagram and descriptions of internal `gateway` request flow.
+- [x] Create diagram and descriptions of internal `gateway` request flow. ✅ 2026-05-22
