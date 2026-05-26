@@ -80,6 +80,7 @@ tags:
 			- [ ] Settle `tempo`USDC
 	- [ ] `config` (hot reload)
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
+	- [ ] OFAC SDN
 	- [ ] `dev` IAC
 	- [ ] `prd` IAC
 - [ ] Provider authentication
