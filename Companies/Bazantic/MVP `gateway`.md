@@ -68,8 +68,13 @@ tags:
 		- [ ] agent-card
 		- [ ] `retry` policy and implementation
 	- [ ] config
-		- [ ] logging
+		- [ ] observability
+			- [ ] logging
+			- [ ] tracing
+			- [ ] metrics
 		- [ ] providers
+		- [ ] SDN
+		- [ ] Sanctioned IP addresses
 	- [ ] `b4z` IAC
 	- [ ] `payment`
 		- [ ] `x402`
@@ -82,7 +87,7 @@ tags:
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] OFAC
 		- [ ] SDN (payments)
-		- [ ] Blocked IP addresses (all requests)
+		- [x] Blocked IP addresses (all requests) ✅ 2026-05-28
 	- [ ] `dev` IAC
 	- [ ] `prd` IAC
 - [ ] Provider authentication
