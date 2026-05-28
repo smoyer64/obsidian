@@ -9,7 +9,7 @@ tags:
 - [x] Allow handler plugins per path ✅ 2026-05-20
 - [ ] Hot reload
 - [ ] Deploy to https://fly.io
-	- [ ] IaC for *.b4z.dev sub-domain
+	- [x] IaC for *.b4z.dev sub-domain ✅ 2026-05-28
 	- [ ] IaC to create API token for *gateway.b4a.dev`
 	- [ ] IaC for *gateway.b4z.dev certificate
 	- [ ] Deployment for https://router.bazantic.smoyer.dev
