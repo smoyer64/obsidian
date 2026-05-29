@@ -25,6 +25,7 @@ tags:
 	- [ ] HTTPTrace
 	- [ ] Events
 	- [ ] Profiles
+	- [ ] handler (one point for trace, metric and logging)
 - [ ] Initial `providers`
 	- [ ] Zerion
 		- [x] API ✅ 2026-05-15
