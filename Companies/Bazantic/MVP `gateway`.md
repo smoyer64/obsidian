@@ -23,6 +23,8 @@ tags:
 	- [ ] OTEL metrics
 	- [ ] OTEL traces
 	- [ ] HTTPTrace
+	- [ ] Events
+	- [ ] Profiles
 - [ ] Initial `providers`
 	- [ ] Zerion
 		- [x] API ✅ 2026-05-15
