@@ -90,7 +90,11 @@ tags:
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] OFAC
 		- [ ] SDN (payments)
-		- [x] Blocked IP addresses (all requests) ✅ 2026-05-28
+		- [ ] Blocked IP addresses (all requests)
+			- [x] `r.RequestIP` ✅ 2026-05-28
+			- [ ] `Fly-Client-IP`
+			- [ ] `CF-Connecting-IP`
+			- [ ] Other clouds?
 	- [ ] `dev` IAC
 	- [ ] `prd` IAC
 - [ ] Provider authentication
