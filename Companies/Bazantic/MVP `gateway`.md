@@ -11,8 +11,8 @@ tags:
 - [ ] Deploy to https://fly.io
 	- [x] IaC for *.b4z.dev sub-domain ✅ 2026-05-28
 	- [ ] IaC to create API token for *gateway.b4z.dev`
-	- [ ] IaC for *gateway.b4z.dev certificate
-	- [ ] Deployment for https://router.bazantic.smoyer.dev
+	- [x] IaC for *gateway.b4z.dev certificate ✅ 2026-06-01
+	- [x] Deployment for https://gateway.b4z.dev ✅ 2026-06-01
 - [ ] Deploy as CloudFlare worker
 - [ ] MCP from OpenAPI specification
 - [ ] MCP from OpenRPC specification
