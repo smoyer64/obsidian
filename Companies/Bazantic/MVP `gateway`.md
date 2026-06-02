@@ -78,6 +78,8 @@ tags:
 		- [ ] providers
 		- [ ] SDN
 		- [ ] Sanctioned IP addresses
+		- [ ] x402 facilitator
+		- [ ] MPP verfiy/settle
 	- [ ] `b4z` IAC
 	- [ ] `payment`
 		- [ ] `x402`
@@ -92,8 +94,8 @@ tags:
 		- [ ] SDN (payments)
 		- [ ] Blocked IP addresses (all requests)
 			- [x] `r.RequestIP` ✅ 2026-05-28
-			- [ ] `Fly-Client-IP`
-			- [ ] `CF-Connecting-IP`
+			- [x] `Fly-Client-IP` ✅ 2026-06-02
+			- [x] `CF-Connecting-IP` ✅ 2026-06-02
 			- [ ] Other clouds?
 	- [ ] `dev` IAC
 	- [ ] `prd` IAC
