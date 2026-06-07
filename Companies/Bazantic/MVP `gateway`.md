@@ -80,7 +80,7 @@ tags:
 		- [ ] Sanctioned IP addresses
 		- [ ] x402 facilitator
 		- [ ] MPP verfiy/settle
-	- [ ] `b4z` IAC
+	- [x] `b4z` IAC ✅ 2026-06-07
 	- [ ] `payment`
 		- [ ] `x402`
 			- [ ] Request `base` USDC
@@ -97,8 +97,8 @@ tags:
 			- [x] `Fly-Client-IP` ✅ 2026-06-02
 			- [x] `CF-Connecting-IP` ✅ 2026-06-02
 			- [ ] Other clouds?
-	- [ ] `dev` IAC
-	- [ ] `prd` IAC
+	- [x] `dev` IAC ✅ 2026-06-07
+	- [x] `prd` IAC ✅ 2026-06-07
 - [ ] Provider authentication
 	- [x] Header ✅ 2026-05-20
 	- [x] Basic ✅ 2026-05-20
