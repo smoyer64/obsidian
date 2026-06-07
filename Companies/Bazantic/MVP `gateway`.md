@@ -8,9 +8,9 @@ tags:
 - [x] Intercept response headers, body and trailers ✅ 2026-05-15
 - [x] Allow handler plugins per path ✅ 2026-05-20
 - [ ] Hot reload
-- [ ] Deploy to https://fly.io
+- [x] Deploy to https://fly.io ✅ 2026-06-07
 	- [x] IaC for *.b4z.dev sub-domain ✅ 2026-05-28
-	- [ ] IaC to create API token for *gateway.b4z.dev`
+	- [-] IaC to create API token for *gateway.b4z.dev`
 	- [x] IaC for *gateway.b4z.dev certificate ✅ 2026-06-01
 	- [x] Deployment for https://gateway.b4z.dev ✅ 2026-06-01
 - [ ] Deploy as CloudFlare worker
@@ -76,10 +76,11 @@ tags:
 			- [ ] tracing
 			- [ ] metrics
 		- [ ] providers
-		- [ ] SDN
-		- [ ] Sanctioned IP addresses
-		- [ ] x402 facilitator
-		- [ ] MPP verfiy/settle
+		- [ ] OFAC SDN
+		- [x] OFAC sanctioned IP CIDRs ✅ 2026-06-07
+		- [x] Sanctioned IP addresses ✅ 2026-06-07
+		- [x] x402 facilitator ✅ 2026-06-07
+		- [x] MPP verfiy/settle ✅ 2026-06-07
 	- [x] `b4z` IAC ✅ 2026-06-07
 	- [ ] `payment`
 		- [ ] `x402`
