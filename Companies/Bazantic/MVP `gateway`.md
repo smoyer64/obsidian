@@ -51,13 +51,13 @@ tags:
 		- API: 
 		- MCP server end-point: https://mcp.vaults.fyi/mcp
 		- OpenAPI document: https://raw.githubusercontent.com/WallfacerLabs/API-V2-spec/refs/heads/main/v2Spec.yaml
-- [ ] Create x402+MPP proof-of-concept
-	- [ ] Write MPP headers
+- [x] Create x402+MPP proof-of-concept ✅ 2026-06-08
+	- [x] Write MPP headers ✅ 2026-06-08
 	- [ ] ~~Write x402 body ~~
-	- [ ] Write x402 headers
-	- [ ] Create "merged" server
-	- [ ] Create "Hello, world" implementation
-	- [ ] Deploy to Fly.io
+	- [x] Write x402 headers ✅ 2026-06-08
+	- [x] Create "merged" server ✅ 2026-06-08
+	- [-] Create "Hello, world" implementation
+	- [x] Deploy to Fly.io ✅ 2026-06-08
 - `gateway` priority
 	- [x] `proxy` ✅ 2026-05-15
 		- [ ] BazanticError header set if `io.Copy` fails
@@ -82,13 +82,13 @@ tags:
 		- [x] x402 facilitator ✅ 2026-06-07
 		- [x] MPP verfiy/settle ✅ 2026-06-07
 	- [x] `b4z` IAC ✅ 2026-06-07
-	- [ ] `payment`
-		- [ ] `x402`
-			- [ ] Request `base` USDC
-			- [ ] Settle `base`USDC
-		- [ ] MPP
-			- [ ] Request `tempo` USDC
-			- [ ] Settle `tempo`USDC
+	- [x] `payment` ✅ 2026-06-08
+		- [x] `x402` ✅ 2026-06-08
+			- [x] Request `base` USDC ✅ 2026-06-08
+			- [x] Settle `base`USDC ✅ 2026-06-08
+		- [x] MPP ✅ 2026-06-08
+			- [x] Request `tempo` USDC ✅ 2026-06-08
+			- [x] Settle `tempo`USDC ✅ 2026-06-08
 	- [ ] `config` (hot reload)
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] OFAC
@@ -97,7 +97,7 @@ tags:
 			- [x] `r.RequestIP` ✅ 2026-05-28
 			- [x] `Fly-Client-IP` ✅ 2026-06-02
 			- [x] `CF-Connecting-IP` ✅ 2026-06-02
-			- [ ] Other clouds?
+			- [-] Other clouds?
 	- [x] `dev` IAC ✅ 2026-06-07
 	- [x] `prd` IAC ✅ 2026-06-07
 - [ ] Provider authentication
