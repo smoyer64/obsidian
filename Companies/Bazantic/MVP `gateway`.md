@@ -93,7 +93,7 @@ tags:
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
 	- [ ] OFAC
 		- [ ] SDN (payments)
-		- [ ] Blocked IP addresses (all requests)
+		- [x] Blocked IP addresses (all requests) ✅ 2026-06-08
 			- [x] `r.RequestIP` ✅ 2026-05-28
 			- [x] `Fly-Client-IP` ✅ 2026-06-02
 			- [x] `CF-Connecting-IP` ✅ 2026-06-02
