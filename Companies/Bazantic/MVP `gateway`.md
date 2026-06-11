@@ -17,15 +17,15 @@ tags:
 - [ ] MCP from OpenAPI specification
 - [ ] MCP from OpenRPC specification
 - [ ] ? Ethereum JSON-RPC translator (and others)
-- [ ] Observability
-	- [ ] OTEL logging
-		- [ ] Wide logging
-	- [ ] OTEL metrics
-	- [ ] OTEL traces
+- [x] Observability ✅ 2026-06-11
+	- [x] OTEL logging ✅ 2026-06-11
+		- [x] Wide logging ✅ 2026-06-11
+	- [x] OTEL metrics ✅ 2026-06-11
+	- [x] OTEL traces ✅ 2026-06-11
 	- [ ] HTTPTrace
 	- [ ] Events
 	- [ ] Profiles
-	- [ ] handler (one point for trace, metric and logging)
+	- [x] handler (one point for trace, metric and logging) ✅ 2026-06-11
 - [ ] Initial `providers`
 	- [ ] Zerion
 		- [x] API ✅ 2026-05-15
@@ -70,11 +70,11 @@ tags:
 		- [ ] `mcp
 		- [ ] agent-card
 		- [ ] `retry` policy and implementation
-	- [ ] config
-		- [ ] observability
-			- [ ] logging
-			- [ ] tracing
-			- [ ] metrics
+	- [x] config ✅ 2026-06-11
+		- [x] observability ✅ 2026-06-11
+			- [x] logging ✅ 2026-06-11
+			- [x] tracing ✅ 2026-06-11
+			- [x] metrics ✅ 2026-06-11
 		- [ ] providers
 		- [ ] OFAC SDN
 		- [x] OFAC sanctioned IP CIDRs ✅ 2026-06-07
