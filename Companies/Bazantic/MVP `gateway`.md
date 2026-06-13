@@ -60,7 +60,8 @@ tags:
 	- [x] Deploy to Fly.io ✅ 2026-06-08
 - `gateway` priority
 	- [x] `proxy` ✅ 2026-05-15
-		- [ ] BazanticError header set if `io.Copy` fails
+		- [x] BazanticError header set if `io.Copy` fails ✅ 2026-06-12
+			- Actually an entire state structure that's carried to the "final" middleware involved in the response and then logged (wide), metered and traced
 	- [ ] `router`
 		- [x] `api` ✅ 2026-05-15
 		- [x] provider `auth` ✅ 2026-05-15
@@ -76,7 +77,7 @@ tags:
 			- [x] tracing ✅ 2026-06-11
 			- [x] metrics ✅ 2026-06-11
 		- [ ] providers
-		- [ ] OFAC SDN
+		- [x] OFAC SDN ✅ 2026-06-12
 		- [x] OFAC sanctioned IP CIDRs ✅ 2026-06-07
 		- [x] Sanctioned IP addresses ✅ 2026-06-07
 		- [x] x402 facilitator ✅ 2026-06-07
@@ -91,8 +92,8 @@ tags:
 			- [x] Settle `tempo`USDC ✅ 2026-06-08
 	- [ ] `config` (hot reload)
 		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
-	- [ ] OFAC
-		- [ ] SDN (payments)
+	- [x] OFAC ✅ 2026-06-12
+		- [x] SDN (payments) ✅ 2026-06-12
 		- [x] Blocked IP addresses (all requests) ✅ 2026-06-08
 			- [x] `r.RequestIP` ✅ 2026-05-28
 			- [x] `Fly-Client-IP` ✅ 2026-06-02
