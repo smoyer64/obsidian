@@ -30,9 +30,9 @@ tags:
 	- [ ] Zerion
 		- [x] API ✅ 2026-05-15
 		- [ ] MCP (provider)
-		- [ ] MCP (generated)
+		- [x] MCP (generated) ✅ 2026-06-18
 		- [ ] Agent card
-		- [ ] OpenAPI docs
+		- [x] OpenAPI docs ✅ 2026-06-18
 		- Home page: https://www.zerion.io/api
 		- Documentation: 
 		- API: 
@@ -43,9 +43,9 @@ tags:
 	- [ ] Vault
 		- [x] API ✅ 2026-05-15
 		- [ ] MCP (provider)
-		- [ ] MCP (generated)
+		- [x] MCP (generated) ✅ 2026-06-18
 		- [ ] Agent card
-		- [ ] OpenAPI docs
+		- [x] OpenAPI docs ✅ 2026-06-18
 		- Home page: https://vaults.fyi/
 		- Documentation:
 		- API: 
