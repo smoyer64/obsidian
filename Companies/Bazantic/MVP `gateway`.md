@@ -68,7 +68,7 @@ tags:
 		- [ ] openapi
 		- [ ] JSON-RPC handler
 			- [ ] BazanticError header set if HTTP response entity body contains an error.
-		- [ ] `mcp
+		- [x] `mcp ✅ 2026-06-19
 		- [ ] agent-card
 		- [ ] `retry` policy and implementation
 	- [x] config ✅ 2026-06-11
