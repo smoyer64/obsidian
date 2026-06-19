@@ -108,5 +108,6 @@ tags:
 	- [ ] OAuth2
 	- [x] Path ✅ 2026-05-20
 	- [x] Noop ✅ 2026-05-20
+	- [ ] JWT? (like INFURA)
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
 - [x] Create diagram and descriptions of internal `gateway` request flow. ✅ 2026-05-22
