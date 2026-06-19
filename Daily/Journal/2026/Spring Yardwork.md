@@ -1,5 +1,4 @@
 ## Pruning
-
 - [ ] Away from garage roof
 - [ ] Away from office roof
 - [ ] Along rear fence
@@ -9,7 +8,7 @@
 ## Patio Set-up
 - [x] Remove prop ✅ 2026-05-02
 - [x] Uncover/clean/fill fountain ✅ 2026-05-17
-- [ ] Get out patio furniture
+- [x] Get out patio furniture ✅ 2026-06-19
 - [ ] Rake and sweep
 - [x] Hang party light ✅ 2026-05-17
 
@@ -22,7 +21,7 @@
 - [ ] Paint fence
 - [ ] Trim ball bush
 - [ ] Trim short hedge
-- [ ] Weed front gardens
+- [x] Weed front gardens ✅ 2026-06-19
 - [ ] Fix gas blower
 - [ ] Empty right garage bay
 - [ ] Replace mountain bike brake shoes
