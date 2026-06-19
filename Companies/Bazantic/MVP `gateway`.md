@@ -14,7 +14,7 @@ tags:
 	- [x] IaC for *gateway.b4z.dev certificate ✅ 2026-06-01
 	- [x] Deployment for https://gateway.b4z.dev ✅ 2026-06-01
 - [ ] Deploy as CloudFlare worker
-- [ ] MCP from OpenAPI specification
+- [x] MCP from OpenAPI specification ✅ 2026-06-19
 - [ ] MCP from OpenRPC specification
 - [ ] ? Ethereum JSON-RPC translator (and others)
 - [x] Observability ✅ 2026-06-11
