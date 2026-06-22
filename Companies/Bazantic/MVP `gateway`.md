@@ -122,4 +122,3 @@ tags:
 	- [ ] `/admin` end-points (all ideas thus far)
 		- [ ] `/admin/doctor`
 		- [ ] `/admin/config`
-		- [ ] 
