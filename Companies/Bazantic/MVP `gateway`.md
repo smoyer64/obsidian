@@ -111,3 +111,15 @@ tags:
 	- [ ] JWT? (like INFURA)
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
 - [x] Create diagram and descriptions of internal `gateway` request flow. ✅ 2026-05-22
+- Next steps (roughly my prioritization - product should weigh in):
+	- [x] Block OFAC sanctioned blockchain addresses ✅ 2026-06-22
+	- [x] OTEL tuning and improvements (so I can better troubleshoot) ✅ 2026-06-22
+	- [ ] `/api/services` so that I don't have to manually describe path segments every time we add a provider/service
+	- [x] GitHub workflows to handle the deploys in the three cases described above - not perfectly aligned with the very Vercel-centric `environments.md` but we can iterate ✅ 2026-06-22
+	- [ ] Hot-reloaded configuration
+	- [ ] Hot-reloaded services and secrets from `registry`
+	- [x] MCP servers for `provided` type ✅ 2026-06-22
+	- [ ] `/admin` end-points (all ideas thus far)
+		- [ ] `/admin/doctor`
+		- [ ] `/admin/config`
+		- [ ] 
