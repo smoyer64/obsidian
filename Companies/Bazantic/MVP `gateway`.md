@@ -67,8 +67,8 @@ tags:
 		- [x] `api` ✅ 2026-05-15
 		- [x] provider `auth` ✅ 2026-05-15
 		- [ ] openapi
-		- [ ] JSON-RPC handler
-			- [ ] BazanticError header set if HTTP response entity body contains an error.
+		- [x] JSON-RPC handler ✅ 2026-06-23
+			- [x] BazanticError header set if HTTP response entity body contains an error. ✅ 2026-06-23
 		- [x] `mcp ✅ 2026-06-19
 		- [ ] agent-card
 		- [ ] `retry` policy and implementation
@@ -92,7 +92,7 @@ tags:
 			- [x] Request `tempo` USDC ✅ 2026-06-08
 			- [x] Settle `tempo`USDC ✅ 2026-06-08
 	- [ ] `config` (hot reload)
-		- [ ] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux].
+		- [x] If you need a mutable routing table, the usual pattern is to wrap a mux behind your own handler that holds an atomic.Pointer[http.ServeMux]. ✅ 2026-06-23
 	- [x] OFAC ✅ 2026-06-12
 		- [x] SDN (payments) ✅ 2026-06-12
 		- [x] Blocked IP addresses (all requests) ✅ 2026-06-08
