@@ -44,6 +44,7 @@ tags:
 		- [x] API ✅ 2026-05-15
 		- [ ] MCP (provider)
 		- [x] MCP (generated) ✅ 2026-06-18
+		- [ ] MCP (merged)
 		- [ ] Agent card
 		- [x] OpenAPI docs ✅ 2026-06-18
 		- Home page: https://vaults.fyi/
