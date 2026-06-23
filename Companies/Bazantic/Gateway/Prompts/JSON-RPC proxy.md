@@ -10,7 +10,8 @@ The JSON-RPC proxy is a specialization of `proxy.Handler`which should be created
 
 ## Requirements
 
-- The JSON-RPC proxy can 
+- The JSON-RPC proxy must retrieve the `Signals`from the HTTP request context
+- The JSON-RPC proxy must 
 
 ## Implementation Notes
 
