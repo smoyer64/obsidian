@@ -10,4 +10,10 @@ The Bazantic registry allows an authenticated client to programatically retrieve
 The prerequisite packages are already present:
 - The `bua.Client` provides access to the "registry".
 - The `timed.Task`provides a framework for operations that should be run on a recurring basis.
-- The ``
+- The `reload.Trigger` instructs the `router` to rebuild and swap in a new instance without downtime.
+
+## Requirements
+
+Given the prerequisite packages listed above, the remaining work involves the following requirements:
+
+- 
