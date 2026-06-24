@@ -110,6 +110,7 @@ tags:
 	- [x] Path ✅ 2026-05-20
 	- [x] Noop ✅ 2026-05-20
 	- [ ] JWT? (like INFURA)
+	- [x] Query parameter ✅ 2026-06-24
 - [ ] Create diagram and descriptions of `gateway` interfaces to other Bazantic components.
 - [x] Create diagram and descriptions of internal `gateway` request flow. ✅ 2026-05-22
 - Next steps (roughly my prioritization - product should weigh in):
