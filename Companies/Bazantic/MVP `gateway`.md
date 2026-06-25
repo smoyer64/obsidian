@@ -121,14 +121,11 @@ tags:
 	- [ ] Hot-reloaded configuration
 	- [ ] Hot-reloaded services and secrets from `registry`
 	- [ ] MCP servers for `provided` type
-	- [ ] `/admin` end-points (all ideas thus far)
-		- [ ] `/admin/doctor`
-		- [ ] `/admin/config`
 - End-points
 	- `/api`
 		- [x] `GET /api/services` ✅ 2026-06-25
 		- [x] `GET /api/services/{id}` ✅ 2026-06-25
-	- `/admin`
+	- `/admin` (only ideas thus far)
 		- [ ] `GET /admin/config`
 		- [ ] `GET /admin/doctor`
 		- [ ] `GET /admin/services`
