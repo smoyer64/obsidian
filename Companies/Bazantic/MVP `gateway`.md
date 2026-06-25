@@ -120,7 +120,18 @@ tags:
 	- [x] GitHub workflows to handle the deploys in the three cases described above - not perfectly aligned with the very Vercel-centric `environments.md` but we can iterate ✅ 2026-06-22
 	- [ ] Hot-reloaded configuration
 	- [ ] Hot-reloaded services and secrets from `registry`
-	- [x] MCP servers for `provided` type ✅ 2026-06-22
+	- [ ] MCP servers for `provided` type
 	- [ ] `/admin` end-points (all ideas thus far)
 		- [ ] `/admin/doctor`
 		- [ ] `/admin/config`
+- End-points
+	- `/api`
+		- [x] `GET /api/services` ✅ 2026-06-25
+		- [x] `GET /api/services/{id}` ✅ 2026-06-25
+	- `/admin`
+		- [ ] `GET /admin/config`
+		- [ ] `GET /admin/doctor`
+		- [ ] `GET /admin/services`
+		- [ ] `GET /admin/services/{id}
+	- [ ] `/mcp
+	- [ ] `/chat
