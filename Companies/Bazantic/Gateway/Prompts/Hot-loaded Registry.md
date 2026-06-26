@@ -16,4 +16,17 @@ The prerequisite packages are already present:
 
 Given the prerequisite packages listed above, the remaining work involves the following requirements:
 
+- Create a `bua.Client`
+
+## Configuration
+
+The following configuration should be added to `config.Config` to support the hot-reloaded registry:
+
+- The URL of the target BUA instance
+- The JWT needed for authenticated access to the BUA instance
+- The symmetric encryption key needed to decrypt the secrets needed to authenticate to each provider
+- A string representing the duration (in Go format) to wait between checking for changes to the gateways returned by BUA
+
+## Implementation notes
+
 - 
