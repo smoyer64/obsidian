@@ -31,8 +31,12 @@ The following configuration should be added to `config.Config` to support the ho
 
 ## Implementation notes
 
+- The new BUA hot-reloaded registry should be in the `registry` package.
+- The `wire` DI system should be used to provide all the reloader's dependencies via the constructor.  Likewise, `wire` should be used to inject the needed trigger and to add the reloader to the timed tasks managed by the top-level application.
 - The call to BUA should be roughly equivalent to the following `cURL` command:
 	```
 	curl 'https://api.bazantic.com/v1/gateways?expanded=true&status=live' -H 'Authorization: Bearer bzr_Gx_OHK1HD4wWtiQ81Bow_by3gmK4PZcS8nngmG3bC9M' -H 'If-Modified-Since:Wed, 17 Jun 2026 13:00:06 GMT'
 	```
-- 
+- The `openapi.Refresher`is a good example of how this new package should work with the major difference being the use of the `ETag` and `If-None-Match` headers instead of the `Last-Modified` and `If-Modified-Since` headers.
+
+**Write a specification that describes the above requirements in a manner sufficient to perform the task break-down and implementation autonomously.  Grill me to resolve omissions and ambiguities**
