@@ -34,7 +34,7 @@ The objective is to index a small, distinct catalog of documents—each characte
 
 ### 3.1 Core Architecture & Library Choice
 
-The system utilizes **Bluge** (`github.com/blugesearch/bluge`) due to its lightweight, modular design, minimal memory allocation profile, and support for explicit field configuration.
+The system utilizes **Bluge** (`github.com/blugelabs/bluge`) due to its lightweight, modular design, minimal memory allocation profile, and support for explicit field configuration.
 
 ### 3.2 Document Mapping Design
 
