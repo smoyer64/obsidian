@@ -70,7 +70,8 @@ tags:
 		- [x] JSON-RPC handler ✅ 2026-06-23
 			- [x] BazanticError header set if HTTP response entity body contains an error. ✅ 2026-06-23
 		- [x] `mcp ✅ 2026-06-19
-		- [ ] agent-card
+		- [ ] `agent-card`
+		- [ ] `ai-catalog.json` (ARD)
 		- [ ] `retry` policy and implementation
 	- [x] config ✅ 2026-06-11
 		- [x] observability ✅ 2026-06-11
@@ -132,3 +133,5 @@ tags:
 		- [ ] `GET /admin/services/{id}
 	- [ ] `/mcp
 	- [ ] `/chat
+- [ ] **Publish `agent-card.json`to discovery registries
+	- See the `discovery-standard-fragmentation`document
