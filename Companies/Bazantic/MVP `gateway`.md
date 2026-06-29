@@ -120,13 +120,13 @@ tags:
 	- [x] `/api/services` so that I don't have to manually describe path segments every time we add a provider/service ✅ 2026-06-29
 	- [x] GitHub workflows to handle the deploys in the three cases described above - not perfectly aligned with the very Vercel-centric `environments.md` but we can iterate ✅ 2026-06-22
 	- [ ] Hot-reloaded configuration
-	- [ ] Hot-reloaded services and secrets from `registry`
+	- [x] Hot-reloaded services and secrets from `registry` ✅ 2026-06-29
 	- [ ] MCP servers for `provided` type
 - End-points
 	- `/api`
 		- [x] `GET /api/services` ✅ 2026-06-25
 		- [x] `GET /api/services/{id}` ✅ 2026-06-25
-		- [ ] `GET /api/search`
+		- [x] `GET /api/search` ✅ 2026-06-29
 	- `/admin` (only ideas thus far)
 		- [ ] `GET /admin/config`
 		- [ ] `GET /admin/doctor`
