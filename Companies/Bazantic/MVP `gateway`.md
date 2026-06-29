@@ -117,7 +117,7 @@ tags:
 - Next steps (roughly my prioritization - product should weigh in):
 	- [x] Block OFAC sanctioned blockchain addresses ✅ 2026-06-22
 	- [x] OTEL tuning and improvements (so I can better troubleshoot) ✅ 2026-06-22
-	- [ ] `/api/services` so that I don't have to manually describe path segments every time we add a provider/service
+	- [x] `/api/services` so that I don't have to manually describe path segments every time we add a provider/service ✅ 2026-06-29
 	- [x] GitHub workflows to handle the deploys in the three cases described above - not perfectly aligned with the very Vercel-centric `environments.md` but we can iterate ✅ 2026-06-22
 	- [ ] Hot-reloaded configuration
 	- [ ] Hot-reloaded services and secrets from `registry`
@@ -126,6 +126,7 @@ tags:
 	- `/api`
 		- [x] `GET /api/services` ✅ 2026-06-25
 		- [x] `GET /api/services/{id}` ✅ 2026-06-25
+		- [ ] `GET /api/search`
 	- `/admin` (only ideas thus far)
 		- [ ] `GET /admin/config`
 		- [ ] `GET /admin/doctor`
