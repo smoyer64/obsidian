@@ -10,3 +10,8 @@
 - 2026-06-28 (S) moderate 2PM-3PM driving
 - 2026-06-29 (M) none?
 - 2026-06-30 (T) strong - 11PM-? (Good Day Cafe dark roast)
+
+Dr Stoudt
+Anna (imaging tech?)
+
+814-272-5660
