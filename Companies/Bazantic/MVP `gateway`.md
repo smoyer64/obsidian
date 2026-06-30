@@ -136,3 +136,8 @@ tags:
 	- [ ] `/chat
 - [ ] **Publish `agent-card.json`to discovery registries
 	- See the `discovery-standard-fragmentation`document
+- [ ] Launch
+	- [ ] MCP from OpenRPC document
+	- [ ] Pricing from BUA
+	- [ ] REST Methods from BUA
+	- [ ] 
