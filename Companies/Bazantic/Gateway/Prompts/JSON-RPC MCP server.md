@@ -7,3 +7,5 @@ The `gateway` already generates an MCP server for services that include an OpenA
 
 ## Implementation notes
 
+- There are tools that should help parse an OpenRPC specification and to help build a converter that can convert an MCP server's named parameters to positional parameters (for `positioned-jsonrpc`) available in the github.com/open-rpc/meta-schema Go package.
+- A more comprehensive description of the OpenRPC schema as well as a full parser in the github.com/open-rpc/meta-schema Go package.
