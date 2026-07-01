@@ -7,7 +7,7 @@ tags:
 - [x] Intercept request headers, body and trailers ✅ 2026-05-15
 - [x] Intercept response headers, body and trailers ✅ 2026-05-15
 - [x] Allow handler plugins per path ✅ 2026-05-20
-- [ ] Hot reload
+- [x] Hot reload ✅ 2026-07-01
 - [x] Deploy to https://fly.io ✅ 2026-06-07
 	- [x] IaC for *.b4z.dev sub-domain ✅ 2026-05-28
 	- [-] IaC to create API token for *gateway.b4z.dev`
@@ -132,7 +132,7 @@ tags:
 		- [ ] `GET /admin/doctor`
 		- [ ] `GET /admin/services`
 		- [ ] `GET /admin/services/{id}
-	- [ ] `/mcp
+	- [x] `/mcp ✅ 2026-07-01
 	- [ ] `/chat
 - [ ] **Publish `agent-card.json`to discovery registries
 	- See the `discovery-standard-fragmentation`document
@@ -140,4 +140,3 @@ tags:
 	- [ ] MCP from OpenRPC document
 	- [ ] Pricing from BUA
 	- [ ] REST Methods from BUA
-	- [ ] 
