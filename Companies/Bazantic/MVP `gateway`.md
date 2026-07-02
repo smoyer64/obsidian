@@ -137,7 +137,8 @@ tags:
 - [ ] **Publish `agent-card.json`to discovery registries
 	- See the `discovery-standard-fragmentation`document
 - [ ] Launch
-	- [ ] Enhanced search
-	- [ ] MCP from OpenRPC document
+	- [x] Enhanced search ✅ 2026-07-02
+	- [x] MCP from OpenRPC document ✅ 2026-07-02
 	- [ ] Pricing from BUA
 	- [ ] REST Methods from BUA
+	- [ ] JSON-RPC methods from BUA
