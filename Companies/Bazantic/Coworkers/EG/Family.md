@@ -1,3 +1,3 @@
 
 Wife:
-Kids: Sophie
+Kids: Sophie (F)
