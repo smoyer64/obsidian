@@ -7,7 +7,11 @@ The `gateway` code currently extracts the JSON-RPC method from a `named-jsonrpc`
 
 The following requirements apply to the creation of the middleware specific to one of the `registry.Service`s that the `gateway` supports:
 
-- The `rest.NewMiddleware` method should create a new `handler.Middleware` that contains the trie
+- The `rest.NewMiddleware` method should create a new `handler.Middleware` that contains a trie that can be walked to "decode" each request's incoming path.
+
+The following requirements apply to the operation of the resulting middleware during `http.Request` handling:
+
+* 
 
 ## Implementation notes
 
