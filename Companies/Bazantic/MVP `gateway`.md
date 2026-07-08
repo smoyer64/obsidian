@@ -142,3 +142,4 @@ tags:
 	- [ ] Pricing from BUA
 	- [ ] REST Methods from BUA
 	- [ ] JSON-RPC methods from BUA
+	- [ ] Limit MCP tool generation to BUA declared methods
