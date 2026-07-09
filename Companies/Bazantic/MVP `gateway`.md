@@ -141,8 +141,9 @@ tags:
 	- [x] MCP from OpenRPC document ✅ 2026-07-02
 	- [ ] Pricing from BUA
 	- [x] REST Methods from BUA ✅ 2026-07-09
-	- [ ] JSON-RPC methods from BUA
-	- [ ] `payment.Middleware` pricing from `Signals`
+	- [x] JSON-RPC methods from BUA ✅ 2026-07-09
+	- [x] `payment.Middleware` pricing from `Signals` ✅ 2026-07-09
+	- [ ] Change price code from BUA
 	- [ ] Limit MCP tool generation to BUA declared methods
 	- [ ] Use [RFC4648](https://www.rfc-editor.org/info/rfc4648/#section-7) (`base32`) to encode the inscrutable
 	- [ ] Allow with sub-domain OR path routing (inscrutable in either place)
