@@ -147,3 +147,7 @@ tags:
 	- [ ] Limit MCP tool generation to BUA declared methods
 	- [ ] Use [RFC4648](https://www.rfc-editor.org/info/rfc4648/#section-7) (`base32`) to encode the inscrutable
 	- [ ] Allow with sub-domain OR path routing (inscrutable in either place)
+	- [ ] Payment telemetry
+	- [ ] BUA metrics
+	- [ ] OpenAPI metrics
+	- [ ] OpenRPC metrics
