@@ -15,7 +15,7 @@ tags:
 	- [x] Deployment for https://gateway.b4z.dev ✅ 2026-06-01
 - [ ] Deploy as CloudFlare worker
 - [x] MCP from OpenAPI specification ✅ 2026-06-19
-- [ ] MCP from OpenRPC specification
+- [x] MCP from OpenRPC specification ✅ 2026-07-09
 - [ ] ? Ethereum JSON-RPC translator (and others)
 - [x] Observability ✅ 2026-06-11
 	- [x] OTEL logging ✅ 2026-06-11
@@ -140,7 +140,7 @@ tags:
 	- [x] Enhanced search ✅ 2026-07-02
 	- [x] MCP from OpenRPC document ✅ 2026-07-02
 	- [ ] Pricing from BUA
-	- [ ] REST Methods from BUA
+	- [x] REST Methods from BUA ✅ 2026-07-09
 	- [ ] JSON-RPC methods from BUA
 	- [ ] Limit MCP tool generation to BUA declared methods
 	- [ ] Use [RFC4648](https://www.rfc-editor.org/info/rfc4648/#section-7) (`base32`) to encode the inscrutable
