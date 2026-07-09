@@ -151,3 +151,10 @@ tags:
 	- [ ] BUA metrics
 	- [ ] OpenAPI metrics
 	- [ ] OpenRPC metrics
+- [ ] MVP priorities
+	- [ ] Regenerate BU client
+	- [ ] Align pricing
+	- [ ] `base32` inscrutables
+	- [ ] -----
+	- [ ] $0.00 payments with crypto identity
+	- [ ] sub-domain routing
