@@ -1,3 +1,5 @@
+
+Write a specification for the following new feature:
 # Agent-Card generation
 
 When the Bazantic `gateway` generates an MCP server for a gateway that provides an OpenAPI or OpenRPC specification, we have all the information we need to also generate an `agent-card.json` file that complies with the A2A protocol specification.
@@ -72,7 +74,22 @@ While the abstracted `agent-card` has better discoverability, we don't have an L
 
 ## Requirements
 
-The 
+The agent-card generation system must meet the following requirements:
+
+1. The generated agent-card must be compliant with the specification
+2. The generated agent-card must be structured as the example above with one tool entry per MCP tool.
+3. The generated agent-card must be served "next to" the associated MCP server - if the MCP server is at `/mcp`, then the assocated agent-card should be `/.well-known/agent-card.json`.
+4. The generation of an agent-card must trigger an asynchronous "publisher".
+5. The generation of an agent-card should be included in the router's rebuild loop.
+
+## Implementation notes
+
+1. The agent-card publisher will be a future feature.  This task should simply create an interface to trigger the asynchronous publishing and a stub implementation.
+2. The agent-card should only contain the tools that are successfully generated from an OpenAPI or Open RPC specification.
+3. The agent-card should only be served if the associated MCP server successfully starts up
 ## References
 
 1. https://a2a-protocol.org/latest/specification/
+2. https://modelcontextprotocol.io/specification/2025-11-25
+
+**Grill me to resolve any ambiguities or omission in the above requirements document.
