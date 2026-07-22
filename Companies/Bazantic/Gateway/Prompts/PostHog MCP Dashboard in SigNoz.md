@@ -24,6 +24,7 @@ PR #575 added telemetry for enhanced MCP analytics, with data being sent to both
 3. Provide a drop-down select list with the ability to type in the first few letters that either selects `all` gateways or one selected `gateway` identified by its `slug`.
 
 **Grill me to resolve any ambiguities or omissions in the above.**
+
 ## References
 
 1. [signoz/signoz provider](https://search.opentofu.org/provider/signoz/signoz/latest)
