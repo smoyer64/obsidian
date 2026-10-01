@@ -1,3 +1,3 @@
 
 Wife: Cynthia?
-Kids: Sophie (F), Ellie (F), Owen? (M)
+Kids: Sophie (F middle), Ellie (F), Owen? (M lacrosse?
